@@ -1,1 +1,1 @@
-export { requestInfo } from './requestInfo';
+export { requestInfo } from "./requestInfo"

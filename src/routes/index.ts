@@ -1,6 +1,6 @@
-import { Test } from './test';
-import type { Express } from 'express';
+import { Test } from "./test"
+import type { Express } from "express"
 
 export function setUpRoutes(app: Express) {
-    app.use('/', new Test({}).router);
+	app.use("/", new Test({}).router)
 }
